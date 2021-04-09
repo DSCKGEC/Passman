@@ -71,7 +71,7 @@ Please read [contributing.md](contributing.md) for details on our code of conduc
 ## Authors
 
 <a href="https://github.com/DSCKGEC/project-template/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=DSCKGEC/project-template" />
+  <img src="https://contrib.rocks/image?repo=DSCKGEC/project-template" />
 </a>
 
 ## License

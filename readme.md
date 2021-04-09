@@ -90,6 +90,8 @@ Please read [contributing.md](contributing.md) for details on our code of conduc
 <a href="https://github.com/DSCKGEC/passman/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=DSCKGEC/passman" />
 </a>
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,3 +1,4 @@
+import 'package:passman/gloab.dart';
 import 'package:passman/login.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fancy name',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: mAccent
       ),
       home: Login(),
     );

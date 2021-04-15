@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 bool lowStat=true;
 String lowMsg="";
 //theme colors
-Color accent=Color(0xFFDF4661);
+const Color accent=Color(0xFFDF4661);
 Color back = Color(0xFF292C33);
 Map<int, Color> swatchConfig =
 {

@@ -1,7 +1,8 @@
+import 'package:passman/entry.dart';
 import 'package:passman/gloab.dart';
-import 'package:passman/login.dart';
+import 'package:passman/signup.dart';
 import 'package:flutter/material.dart';
-
+import 'login.dart';
 void main() {
   runApp(MyApp());
 }
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: mAccent
       ),
-      home: Login(),
+      home: Entry(),
     );
   }
 }

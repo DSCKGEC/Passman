@@ -116,9 +116,10 @@ class Signup extends StatelessWidget {
                   if (pass == rpass)
                     {
                       usr["pass"] = hashGen(pass),
+                      usr["data"]=[],
                       writeUser(usr),
                       Navigator.of(context).pushAndRemoveUntil(
-                          MaterialPageRoute(builder: (context) => Viewer()),
+                          MaterialPageRoute(builder: (context) => ViewerInit()),
                           (route) => false)
                     }
                   else

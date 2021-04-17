@@ -36,3 +36,16 @@ Future<Map<String,dynamic>> getUser()async{
   }
   return user;
 }
+///save new password
+Future<void> save(Map<String,String> data, Map<String,dynamic> pass)async{
+  Map<String,dynamic> temp;
+  final directory = await getApplicationDocumentsDirectory();
+  final path = directory.path;
+  final filepath = "$path/user";
+  File file=new File(filepath);
+  String content=await File(filepath).readAsString();
+  temp = json.decode(content);
+  temp["data"].add(data);
+  temp[pass["key"]]=pass["pair"];
+  file.writeAsString(json.encode(temp));
+}

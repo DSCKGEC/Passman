@@ -77,7 +77,7 @@ class Login extends StatelessWidget {
                   if (hashGen(pass) == usr["pass"])
                     {
                       Navigator.of(context).pushAndRemoveUntil(
-                          MaterialPageRoute(builder: (context) => Viewer()),
+                          MaterialPageRoute(builder: (context) => ViewerInit()),
                           (route) => false)
                     }else{
                     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Wrong Password'),

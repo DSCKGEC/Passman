@@ -33,7 +33,7 @@ The essence is to use locally encrypted file as a backup for password retrieval 
 ├── android             flutter generated android specific code
 ├──ios                  flutter generated ios specific code (for future use)
 ├── lib                 contains all source codes and modules of projects
-  ├──lowlevel           stores low level security APIs
+  ├──lowlevel           contains low level security APIs
 ├──test                 individual widgets can be tested here
 ├── .gitignore          stores files and directories to be ignored in commits
 ├── LICENSE             the open source license
@@ -44,19 +44,16 @@ The essence is to use locally encrypted file as a backup for password retrieval 
 ```
 
 ## Project roadmap
-> To be updated
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Stores passwords locally
+- Stores user acount details locally
+### Additional details
+Please read [details.md](details.md) for details on how every thing is implemented and further documentations.
 
-See below for our future steps.
-
-- Feature 1
-- Feature 2
-- Feature 3
+### Current Issues
+Please read [issues.md](issues.md) for details on future plans and current issues.
 
 ## Getting started
 Everyone is welcomed to contribute to our project. Mentioning in bold, **you do not need to know the tech stack and tools beforehand to be a part of our project**. This is a learn-and-build projects where the contributors build alongside learning the various concepts and technologies involved. <br />Below are a few prerequisites and installation guides:

@@ -11,12 +11,10 @@ An open source password manager
 1. [Project structure](#project-structure)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
-1. [Live demo](#live-demo)
 1. [Built with](#built-with)
 1. [Contributing](#contributing)
 1. [Authors](#authors)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
 
 ## Description
 This project aims to provide an opensource alternative to password managing solutions for enhanced security and more flexeblity.

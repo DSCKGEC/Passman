@@ -1,4 +1,0 @@
-#Sun Apr 25 01:26:35 IST 2021
-base.0=/mnt/InActive/activeProjects/Passman/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

@@ -3,7 +3,24 @@ This doc contains an overview of the working of project
 
 ## Terminology
 - String hashGen(String a) : A function that generates hash
-
+## Widget tree
+```
+MyApp
+|
+Entry
+├─----------─|
+Login      Signup
+|            |
+ViewerInit<--'
+|                         
+Viewer                    
+├──---------------|       
+PassViewer      AddPass
+|                  |
+PassworsInit    ViewerInit
+|                  :
+Password
+```
 ## Storage of data
 All the data are stored in a file named "user" (without an extension) in json format. 
 There are three types of data

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "416400677774",
+    "project_id": "classroom-10ed4",
+    "storage_bucket": "classroom-10ed4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416400677774:android:76620a726e95a8a2d5e2df",
+        "android_client_info": {
+          "package_name": "com.dsc.passman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416400677774-3g4dqs3pabqgf74ltf0ejeg6oo2dp8b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhkMxCvcwxly8cbdt-RCElnC_TZ7fCjXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416400677774-3g4dqs3pabqgf74ltf0ejeg6oo2dp8b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

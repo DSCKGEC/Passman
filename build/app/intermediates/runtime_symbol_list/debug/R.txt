@@ -116,7 +116,8 @@ int id text 0x7f05003f
 int id text2 0x7f050040
 int id time 0x7f050041
 int id title 0x7f050042
-int integer status_bar_notification_info_maxnum 0x7f060000
+int integer google_play_services_version 0x7f060000
+int integer status_bar_notification_info_maxnum 0x7f060001
 int layout custom_dialog 0x7f070000
 int layout notification_action 0x7f070001
 int layout notification_action_tombstone 0x7f070002
@@ -125,7 +126,15 @@ int layout notification_template_icon_group 0x7f070004
 int layout notification_template_part_chronometer 0x7f070005
 int layout notification_template_part_time 0x7f070006
 int mipmap ic_launcher 0x7f080000
-int string status_bar_notification_info_overflow 0x7f090000
+int string common_google_play_services_unknown_issue 0x7f090000
+int string default_web_client_id 0x7f090001
+int string gcm_defaultSenderId 0x7f090002
+int string google_api_key 0x7f090003
+int string google_app_id 0x7f090004
+int string google_crash_reporting_api_key 0x7f090005
+int string google_storage_bucket 0x7f090006
+int string project_id 0x7f090007
+int string status_bar_notification_info_overflow 0x7f090008
 int style LaunchTheme 0x7f0a0000
 int style NormalTheme 0x7f0a0001
 int style TextAppearance_Compat_Notification 0x7f0a0002

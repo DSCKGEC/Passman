@@ -76,7 +76,16 @@ class Signup extends StatelessWidget {
                       ),
                     ),
                     obscureText: true,
-                    onChanged: (t) => {pass = t}),
+                    onChanged: (t) => {
+                      // pass = t
+                      if (t.isNotEmpty && t.length >= 4) {
+                        pass = t
+                      } else {
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                            content: Text("password must have minimum 4 characters"))
+                        )
+                      }
+                    }),
               ),
               Container(
                 width: MediaQuery.of(context).size.width - 50,

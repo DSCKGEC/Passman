@@ -76,16 +76,7 @@ class Signup extends StatelessWidget {
                       ),
                     ),
                     obscureText: true,
-                    onChanged: (t) => {
-                      // pass = t
-                      if (t.isNotEmpty && t.length >= 4) {
-                        pass = t
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                            content: Text("password must have minimum 4 characters"))
-                        )
-                      }
-                    }),
+                    onChanged: (t) => {pass = t}),
               ),
               Container(
                 width: MediaQuery.of(context).size.width - 50,
@@ -122,7 +113,12 @@ class Signup extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () => {
-                  if (pass == rpass)
+                  if (pass.isEmpty || pass.length < 4) {
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                        content: Text("password must have minimum 4 characters"))
+                    )
+                  }
+                  else if (pass == rpass)
                     {
                       usr["pass"] = hashGen(pass),
                       usr["data"]=[],

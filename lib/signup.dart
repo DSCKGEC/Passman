@@ -113,7 +113,12 @@ class Signup extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () => {
-                  if (pass.isEmpty || pass.length < 4) {
+                  if (usr["usr"] == "") {
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                        content: Text("username is empty"))
+                    )
+                  }
+                  else if (pass == "" || pass.length < 4) {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                         content: Text("password must have minimum 4 characters"))
                     )
